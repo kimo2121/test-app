@@ -7,6 +7,7 @@
 
 .stepper-provider {
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   position: relative;
