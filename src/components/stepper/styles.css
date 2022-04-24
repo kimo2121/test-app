@@ -1,0 +1,77 @@
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 76px;
+}
+
+.stepper-provider {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stepper-provider p {
+  margin: 0;
+  border-color: white;
+  color: #b03390;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 100%;
+  width: 50px;
+  box-sizing: border-box;
+  height: 50px;
+  border: 2px solid #b03390;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepper-provider span {
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+  margin-top: 85px;
+  position: absolute;
+}
+
+.stepper-provider.active p {
+  background-color: #b03390;
+  color: white;
+}
+
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepper-line {
+  width: 496px;
+  height: 2px;
+  background-color: #b03390;
+}
+@media screen and (max-width: 900px) {
+  .stepper {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .stepper-line {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .stepper-provider p {
+    font-size: 16px;
+    width: 24px;
+    height: 24px;
+  }
+  .stepper-provider span {
+    font-size: 18px;
+    margin-top: 55px;
+  }
+}

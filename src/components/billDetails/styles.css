@@ -1,0 +1,150 @@
+.medical-condition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 768px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+}
+.billing-page h1 {
+  font-size: 48px;
+}
+.medical-condition label {
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+.medical-condition input {
+  box-sizing: border-box;
+  width: 768px;
+  height: 60px;
+  border-radius: 4px;
+  border-color: #595959;
+}
+
+.yes-no {
+  width: 768px;
+  text-align: left;
+  border-radius: 4px;
+  margin: 0 auto;
+  height: 92px;
+  margin-top: 30px;
+  display: flex;
+  font-size: 25px;
+  font-weight: 400;
+  flex-direction: column;
+  justify-content: center;
+}
+.yes-no label {
+  margin-bottom: 8px;
+}
+.yes-no button {
+  border-color: #595959;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+  height: 60px;
+  background-color: transparent;
+  width: 384px;
+}
+.yes-no button.active {
+  color: white;
+  background-color: black;
+}
+.yes-no button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.yes-no button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.continue-btn {
+  width: 768px;
+  height: 70px;
+  color: white;
+  border-radius: 40px;
+  padding: 16px 24px;
+  background-color: #b03390;
+  border: none;
+  margin-top: 60px;
+  font-size: 26px;
+}
+
+.upload-file {
+  text-align: left;
+  width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.upload-file label {
+  margin-bottom: 8px;
+  line-height: 100%;
+  font-size: 25px;
+}
+.upload-border {
+  height: 120px;
+  justify-content: center;
+  display: flex;
+  border: 2px dashed #595959;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.upload-border button {
+  background: #595959;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  width: 174px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+
+@media screen and (max-width: 900px) {
+  .medical-condition {
+    width: 90%;
+  }
+  .billiling-form input {
+    width: 100%;
+  }
+  .yes-no {
+    width: 90%;
+  }
+  .upload-file {
+    width: 90%;
+  }
+  .continue-btn {
+    width: 90%;
+  }
+  .yes-no button {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .billiling-form label {
+    font-size: 18px;
+  }
+  .billing-page h1 {
+    font-size: 24px;
+  }
+  .yes-no button,
+  .upload-border button {
+    font-size: 20px;
+  }
+  .yes-no button {
+    height: 50px;
+  }
+  .continue-btn {
+    font-size: 22px;
+    height: 60px;
+  }
+}
