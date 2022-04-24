@@ -5,7 +5,7 @@ import "./styles.css";
 const BillingDetails = () => {
   const [boolean, setBoolean] = useState(true);
   return (
-    <div className="billing-page">
+    <div className="billing-details">
       <h1>Medical bill details</h1>
       <Stepper />
       <div className="billiling-form">

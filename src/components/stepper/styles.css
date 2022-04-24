@@ -8,14 +8,15 @@
 .stepper-provider {
   display: flex;
   justify-content: center;
-  position: relative;
   align-items: center;
+  position: relative;
   flex-direction: column;
 }
 
 .stepper-provider p {
   margin: 0;
   border-color: white;
+  line-height: 100%;
   color: #b03390;
   font-size: 25px;
   font-weight: 500;

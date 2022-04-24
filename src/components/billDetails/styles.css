@@ -8,7 +8,10 @@
   font-weight: 400;
   text-align: left;
 }
-.billing-page h1 {
+.billing-details {
+  padding-bottom: 20vh;
+}
+.billing-details h1 {
   font-size: 48px;
 }
 .medical-condition label {
@@ -42,7 +45,6 @@
 .yes-no button {
   border-color: #595959;
   border-radius: 4px;
-  cursor: pointer;
   font-size: 25px;
   height: 60px;
   background-color: transparent;
@@ -108,7 +110,9 @@
   align-items: center;
   height: 45px;
 }
-
+.billiling-form button {
+  cursor: pointer;
+}
 @media screen and (max-width: 900px) {
   .medical-condition {
     width: 90%;
@@ -133,7 +137,7 @@
   .billiling-form label {
     font-size: 18px;
   }
-  .billing-page h1 {
+  .billing-details h1 {
     font-size: 24px;
   }
   .yes-no button,
